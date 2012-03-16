@@ -79,4 +79,10 @@ class JsonClientWrapper(object):
                 "id":self.__getid()
                     }
             return rval
+      #  setattr(self,self.wrapped_name,f)
         return f
+
+#foo = JsonClientWrapper()
+#print foo.__getid()
+#print foo.thisisatest()
+#print foo.bar(1,2,3)
